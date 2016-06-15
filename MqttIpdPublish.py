@@ -8,7 +8,7 @@
 import paho.mqtt.client as mqtt
 import configparser
 import io
-import requests, json
+import requests
 import sys
 import linecache
 import datetime, pytz
