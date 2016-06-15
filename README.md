@@ -8,4 +8,11 @@ Setup configuration file:
 
 See comments for required configuration fields to modify.
 
+Virtualenv
+----------
+
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python MqttIpdPublish.py
 
