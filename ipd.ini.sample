@@ -1,0 +1,24 @@
+[user]
+# Configure here your username at FIWARE Cloud and a valid Oauth2.0
+# token for your user (you can use get_token.py to obtain a valid TOKEN)
+username=your.user@yourdomain.org
+token=<your-token-goes-here>
+
+
+[idas]
+host=idas.local.teamware.it
+mqttport=51883
+OAuth=no
+fiware-service=fiwareiot
+fiware-service-path=/
+apikey=2015fiwareiot
+
+[ipd]
+host=192.168.0.4
+port=3000
+deviceId=px1
+fastRefreshSeconds=5
+slowRefreshMinutes=1
+timezone=Europe/Rome
+# timezone=UTC
+
