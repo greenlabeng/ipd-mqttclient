@@ -1,0 +1,4 @@
+ipd.ini
+*.log
+venv
+.git*

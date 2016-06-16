@@ -1,4 +1,6 @@
 configparser==3.5.0
+crudini==0.7
+iniparse==0.4
 paho-mqtt==1.2
 pytz==2016.4
 requests==2.10.0
